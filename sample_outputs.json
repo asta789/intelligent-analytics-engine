@@ -1,0 +1,139 @@
+{
+  "Total sales in India for March": {
+    "total_sales": 108.0
+  },
+  "Top 2 cities by profit": [
+    {
+      "city": "New York",
+      "profit": 200
+    },
+    {
+      "city": "San Francisco",
+      "profit": 180
+    }
+  ],
+  "Average order value by region": [
+    {
+      "region": "APAC",
+      "avg_order_value": 118.5
+    },
+    {
+      "region": "EMEA",
+      "avg_order_value": 799.3333333333334
+    },
+    {
+      "region": "NA",
+      "avg_order_value": 1087.4666666666667
+    }
+  ],
+  "Which region missed its target in Feb?": [
+    {
+      "region": "APAC",
+      "actual_revenue": 75.0,
+      "target_revenue": 6000,
+      "shortfall": 5925.0
+    },
+    {
+      "region": "EMEA",
+      "actual_revenue": 255.0,
+      "target_revenue": 7500,
+      "shortfall": 7245.0
+    },
+    {
+      "region": "NA",
+      "actual_revenue": 1116.0,
+      "target_revenue": 9500,
+      "shortfall": 8384.0
+    }
+  ],
+  "Sales contribution % by category": [
+    {
+      "product_category": "Technology",
+      "contribution_pct": 88.06077203964529
+    },
+    {
+      "product_category": "Furniture",
+      "contribution_pct": 9.438575899843507
+    },
+    {
+      "product_category": "Office Supplies",
+      "contribution_pct": 2.5006520605112157
+    }
+  ],
+  "Top product in each region": [
+    {
+      "region": "APAC",
+      "product_name": "Ergo Chair",
+      "revenue": 324.0
+    },
+    {
+      "region": "EMEA",
+      "product_name": "Samsung Galaxy",
+      "revenue": 1288.0
+    },
+    {
+      "region": "NA",
+      "product_name": "Dell XPS",
+      "revenue": 2068.0
+    }
+  ],
+  "YoY growth in revenue": [
+    {
+      "year": 2024,
+      "revenue": 6134.4,
+      "previous_revenue": null,
+      "yoy_growth": null
+    }
+  ],
+  "Revenue of top 3 customers per region": [
+    {
+      "region": "APAC",
+      "customer_id": "C001",
+      "revenue": 324.0
+    },
+    {
+      "region": "APAC",
+      "customer_id": "C003",
+      "revenue": 75.0
+    },
+    {
+      "region": "APAC",
+      "customer_id": "C006",
+      "revenue": 75.0
+    },
+    {
+      "region": "EMEA",
+      "customer_id": "C008",
+      "revenue": 1288.0
+    },
+    {
+      "region": "EMEA",
+      "customer_id": "C002",
+      "revenue": 855.0
+    },
+    {
+      "region": "EMEA",
+      "customer_id": "C005",
+      "revenue": 255.0
+    },
+    {
+      "region": "NA",
+      "customer_id": "C009",
+      "revenue": 2068.0
+    },
+    {
+      "region": "NA",
+      "customer_id": "C004",
+      "revenue": 1116.0
+    },
+    {
+      "region": "NA",
+      "customer_id": "C007",
+      "revenue": 78.4
+    }
+  ],
+  "Undefined concept example": {
+    "query": "Which regions have high value customers?",
+    "error": "The local planner does not have enough information to safely answer this query."
+  }
+}
